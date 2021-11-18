@@ -1,0 +1,26 @@
+{
+    "name": "ronykader/logtracker",
+    "description": "This is a user activity log tracker package",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ronykader",
+            "email": "rony.ksr06@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Obd\\Logtracker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Obd\\Logtracker\\LogtrackerServiceProvider"
+            ]
+        }
+    }
+}
